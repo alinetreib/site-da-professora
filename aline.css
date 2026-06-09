@@ -1,1 +1,87 @@
 h1{Meusprojetos;}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#1e88e5;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#1565c0;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    padding:40px;
+    max-width:1000px;
+    margin:auto;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.galeria{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.galeria img{
+    width:300px;
+    border-radius:10px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,
+textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#1e88e5;
+    color:white;
+    border:none;
+    padding:12px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#1565c0;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
